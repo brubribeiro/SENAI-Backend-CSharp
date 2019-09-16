@@ -6,9 +6,9 @@ namespace exercicio3
     {
         static void Main(string[] args)
         {   
-            double salario, tvendas, salariofinal, comissao;
+            //Um vendedor ganha 5% de comissão sobre suas vendas. Considere um algoritmo que leia seu salário fixo, o total de vendas efetuadas e retorne o total que vendedor irá receber.
 
-            //Console.WriteLine("Bem vindo ao programa para calculo de comissão!");
+            double salario, tvendas, salariofinal, comissao;
 
             Console.WriteLine("Digite seu salario fixo: ");
             salario = double.Parse(Console.ReadLine());

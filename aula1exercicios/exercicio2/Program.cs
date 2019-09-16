@@ -6,9 +6,9 @@ namespace exercicio2
     {
         static void Main(string[] args)
         {   
-            float custo, percentual, venda, porcentagem;
+            //Elabore um algoritmo que leia o preço de custo de uma mercadoria e um percentual de acréscimo para exibição do valor de venda desta mercadoria.
 
-            //Console.WriteLine("Bem vindo ao programa para calculo de venda!");
+            float custo, percentual, venda, porcentagem;
             
             Console.WriteLine("Digite o preço de custo do produto: ");
             custo = float.Parse(Console.ReadLine());

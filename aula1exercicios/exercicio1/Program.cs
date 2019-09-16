@@ -6,6 +6,7 @@ namespace exercicio1
     {
         static void Main(string[] args)
         {
+            //Faça um algoritmo para solicitar ao usuário um número, calcular e mostrar o seu triplo.
            int num, resultado;
 
            Console.WriteLine("Bem vindo ao programa para multiplicar por 3!");

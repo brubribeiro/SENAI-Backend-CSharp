@@ -6,10 +6,10 @@ namespace exercicio4
     {
         static void Main(string[] args)
         {   
-            string nome;
-            float cotacao, dolar, real;
+            // //Elabore um algoritmo que efetue a apresentação da conversão de um valor em real (R$) para
+            //  o valor em dólar (US$).O algoritmo deverá solicitar o valor da cotação do dólar.
 
-            //Console.WriteLine("Bem vindo ao programa para conversão para dólar!");
+            float cotacao, dolar, real;
 
             Console.WriteLine("Digite o valor em Real: ");
             real = float.Parse(Console.ReadLine());

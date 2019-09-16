@@ -6,9 +6,12 @@ namespace exercicio6
     {
         static void Main(string[] args)
         {
-            float salario, divida, sobra;
+            // Sabendo que uma pessoa recebe um salário fixo por mês e que ele tem contas
+            // a pagar, faça um algoritmo que leia o salário que ela recebe por mês e leia
+            // também a dívida que possui. Por fim calcule e escreva quanto vai sobrar do
+            // salário dela depois de pagar a dívida.
 
-            //Console.WriteLine("Bem vindo ao programa para calcular a sobra do salário!");
+            float salario, divida, sobra;
 
             Console.WriteLine("Digite seu salario fixo: ");
             salario = float.Parse(Console.ReadLine());
