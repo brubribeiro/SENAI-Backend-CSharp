@@ -27,14 +27,11 @@ namespace exemplo2
             if(media>=6){
                 Console.WriteLine("Aprovado");
             }
+            else if(media < 6 && media >= 4){
+                Console.WriteLine("Recuperação");
+            }
             else{
-                if(media < 6 && media >= 4){
-                    Console.WriteLine("Recuperação");
-                }
-                else
-                {
-                    Console.WriteLine("Reprovado");
-                }
+                Console.WriteLine("Reprovado");
             }
         }
     }
