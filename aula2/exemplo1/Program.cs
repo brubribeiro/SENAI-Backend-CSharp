@@ -24,11 +24,12 @@ namespace aula2
             //Calculamos a média das notas
             media = (nota1+nota2+nota3)/3;
 
+            //Verificamos se a média do aluno é maior ou igual à 6
             if(media>=6){
-                Console.WriteLine("Aprovado");
+                Console.WriteLine($"Média: {media} Aprovado");
             }
             else{
-                Console.WriteLine("Reprovado");
+                Console.WriteLine($"Média: {media} Reprovado");
             }
         }
     }
