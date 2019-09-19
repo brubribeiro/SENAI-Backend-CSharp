@@ -7,7 +7,7 @@ namespace exemplo1
         static void Main(string[] args)
         {
             //LAÇO CONTADO - FOR - INCREMENTO (+)
-            //Elabore um algoritmo que exiba na tela os números ímpares de 1 até 100.
+            //Elabore um algoritmo que exiba na tela os números ímpares de 1 até 100..
 
             for(int cont = 1; cont <= 100; cont++){
                 //Verificamos se o número é diferente de par
