@@ -11,20 +11,31 @@ namespace exercicio7
             // a) A soma de todos os números impares;
             // b) O produto de todos os números múltiplos de 3.
 
-            int cont = 1;
-            int acum = 0;
-            int num;
+            int cont = 1, cont1 = 1;
+            int acum = 0, prod = 1;
+            int num, num1;
 
-            while(cont<=10){
+            while(cont<=100){
                 Console.WriteLine($"A - Digite o número {cont}: ");
                 num = int.Parse(Console.ReadLine());
 
-                if(cont % 2 != 0){
-                    acum = acum + cont;
+                if(num % 2 != 0){
+                    acum = acum + num;
                 }
                 cont ++;
             }
             Console.WriteLine($"A soma dos números impares é de {acum}");
+
+            while(cont1<=100){
+                Console.WriteLine($"B - Digite o número {cont1}: ");
+                num1 = int.Parse(Console.ReadLine());
+
+                if(num1 % 3 == 0){
+                    prod = prod * num1;
+                }
+                cont1 ++;
+            }
+            Console.WriteLine($"O produto dos números multiplos de 3 é {prod}");
         }
     }
 }
