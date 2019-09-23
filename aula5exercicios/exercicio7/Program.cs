@@ -18,6 +18,10 @@ namespace exercicio7
                 Console.WriteLine("Digite um número: ");
                 num[i] = int.Parse(Console.ReadLine());
 
+                if(i ==0){
+                    maior = num[i];
+                }
+
                 if(num[i] > maior){
                     maior = num[i];
                     posicao = i;
