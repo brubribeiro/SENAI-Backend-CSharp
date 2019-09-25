@@ -25,8 +25,9 @@ namespace exemplo3
             string digito_v1 = "";
             string digito_v2 = "";
 
-            //cpfUsuario = cpfUsuario.Trim('.');
-            //cpfUsuario = cpfUsuario.Trim('-');
+            cnpjUsuario = cnpjUsuario.Replace(" ", "");
+            cnpjUsuario = cnpjUsuario.Replace("-", "");
+            cnpjUsuario = cnpjUsuario.Replace(".", "");
 
             cnpjCalculo = cnpjUsuario.Substring(0,12);
 
@@ -37,7 +38,7 @@ namespace exemplo3
             resto = calculo % 11;
             calculo = 11 - resto;
 
-            if(calculo > 12){
+            if(calculo < 2){
                 digito_v1 = "0";
             }else{
                 digito_v1 = calculo.ToString();
@@ -60,7 +61,7 @@ namespace exemplo3
             resto = calculo % 11;
             calculo = 11 - resto;
 
-            if(calculo > 12){
+            if(calculo < 2){
                 digito_v2 = "0";
             }else{
                 digito_v2 = calculo.ToString();
