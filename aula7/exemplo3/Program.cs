@@ -28,6 +28,7 @@ namespace exemplo3
             cnpjUsuario = cnpjUsuario.Replace(" ", "");
             cnpjUsuario = cnpjUsuario.Replace("-", "");
             cnpjUsuario = cnpjUsuario.Replace(".", "");
+            cnpjUsuario = cnpjUsuario.Replace("/", "");
 
             cnpjCalculo = cnpjUsuario.Substring(0,12);
 
