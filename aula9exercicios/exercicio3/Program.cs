@@ -11,7 +11,7 @@ namespace exercicio3
             //b) 2 - Com dois argumentos, retorna seu nome é sobrenome
             //c) 3 - Com três argumentos, retorna sua idade, peso e altura
             
-            try{
+            
             Console.WriteLine(MostraInfo());
             string nome, sobrenome;
 
@@ -21,24 +21,18 @@ namespace exercicio3
             sobrenome = Console.ReadLine();
 
             Console.WriteLine(MostraInfo(nome, sobrenome));
-            
-            int idade;
-            double peso, altura;
 
             System.Console.WriteLine("Digite sua idade: ");
-            idade = int.Parse(Console.ReadLine());
+            idade = Console.ReadLine();
 
             System.Console.WriteLine("Digite seu peso: ");
-            peso = double.Parse(Console.ReadLine());
+            peso = Console.ReadLine();
 
             System.Console.WriteLine("Digite sua altura: ");
-            altura = double.Parse(Console.ReadLine());
+            altura = Console.ReadLine();
 
             Console.WriteLine(MostraInfo(idade, peso, altura));
-            }
-            catch{
-                System.Console.WriteLine("Ops...deu erro!");
-            }
+                        
         }
         static string MostraInfo(){
             return "Servico Nacional de Aprendizagem Industrial - SENAI de Informática";
@@ -46,8 +40,8 @@ namespace exercicio3
         static string MostraInfo(string nome, string sobrenome){
             return $"{nome} {sobrenome}";
         }
-        static string MostraInfo(int idade, double peso, double altura){
-            return $"Idade: {idade}, Peso: {peso}, Altura: {altura}";
+        static string MostraInfo(string idade, string peso, string altura){
+            return $"Idade: {idade}, Peso: {peso}Kg, Altura: {altura}";
         }
     }
 }
