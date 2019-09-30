@@ -6,6 +6,7 @@ namespace aula1
     {
         static void Main(string[] args)
         {
+            //Meu primeiro programa
             //Somente declaramos, sem atribuir valor
             //int num1;
             //Declaramos atribuindo um valor
