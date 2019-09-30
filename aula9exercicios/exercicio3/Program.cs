@@ -13,7 +13,7 @@ namespace exercicio3
             
             
             Console.WriteLine(MostraInfo());
-            string nome, sobrenome;
+            string nome, sobrenome, idade, peso, altura;
 
             System.Console.Write("Digite seu nome: ");
             nome = Console.ReadLine();

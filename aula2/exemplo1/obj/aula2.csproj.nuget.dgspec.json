@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\aula2\\exemplo1\\aula2.csproj": {}
+    "c:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\aula2\\exemplo1\\aula2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\aula2\\exemplo1\\aula2.csproj": {
+    "c:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\aula2\\exemplo1\\aula2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\aula2\\exemplo1\\aula2.csproj",
+        "projectUniqueName": "c:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\aula2\\exemplo1\\aula2.csproj",
         "projectName": "aula2",
-        "projectPath": "C:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\aula2\\exemplo1\\aula2.csproj",
+        "projectPath": "c:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\aula2\\exemplo1\\aula2.csproj",
         "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\aula2\\exemplo1\\obj\\",
+        "outputPath": "c:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\aula2\\exemplo1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

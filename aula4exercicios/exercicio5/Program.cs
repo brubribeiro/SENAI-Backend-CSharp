@@ -19,7 +19,7 @@ namespace exercicio5
 
             while(cont<=funcionarios){
                 Console.WriteLine($"Digite o salário {cont}: ");
-                salario = int.Parse(Console.ReadLine());
+                salario = double.Parse(Console.ReadLine());
                 acum = acum + salario;
                 cont ++;
             }

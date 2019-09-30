@@ -25,8 +25,9 @@ namespace exemplo2
             string digito_v1 = "";
             string digito_v2 = "";
 
-            //cpfUsuario = cpfUsuario.Trim('.');
-            //cpfUsuario = cpfUsuario.Trim('-');
+            cpfUsuario = cpfUsuario.Replace(" ", "");
+            cpfUsuario = cpfUsuario.Replace("-", "");
+            cpfUsuario = cpfUsuario.Replace(".", "");
 
             cpfCalculo = cpfUsuario.Substring(0,9);
 
@@ -68,6 +69,8 @@ namespace exemplo2
 
             if(digito_v2 == cpfUsuario[10].ToString()){
                 resultado = true;
+            }else{
+                resultado = false;
             }
             return resultado;
         }

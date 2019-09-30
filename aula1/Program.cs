@@ -7,15 +7,15 @@ namespace aula1
         static void Main(string[] args)
         {
             //Somente declaramos, sem atribuir valor
-            int num1;
+            //int num1;
             //Declaramos atribuindo um valor
-            int num2 = 5;
+            //int num2 = 5;
             //Declaramos diversas variaveis de mesmo tipo
             int num3, num4, num5;
             //Variavel do tipo decimal(real)
             float media;
             //Variavel do tipo lógico(booleana)
-            bool resultado = false;
+            //bool resultado = false;
             //Variável do tipo texto(caracteres)
             string nomeAluno;
 

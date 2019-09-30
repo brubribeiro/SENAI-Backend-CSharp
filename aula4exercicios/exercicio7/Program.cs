@@ -15,7 +15,7 @@ namespace exercicio7
             int acum = 0, prod = 1;
             int num, num1;
 
-            while(cont<=100){
+            while(cont<=10){
                 Console.WriteLine($"A - Digite o número {cont}: ");
                 num = int.Parse(Console.ReadLine());
 
@@ -26,7 +26,7 @@ namespace exercicio7
             }
             Console.WriteLine($"A soma dos números impares é de {acum}");
 
-            while(cont1<=100){
+            while(cont1<=10){
                 Console.WriteLine($"B - Digite o número {cont1}: ");
                 num1 = int.Parse(Console.ReadLine());
 
