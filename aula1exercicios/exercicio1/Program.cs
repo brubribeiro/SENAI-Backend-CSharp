@@ -6,6 +6,7 @@ namespace exercicio1
     {
         static void Main(string[] args)
         {
+            //Exercicio 1
             //Faça um algoritmo para solicitar ao usuário um número, calcular e mostrar o seu triplo.
            int num, resultado;
 

@@ -6,6 +6,7 @@ namespace exercicio7
     {
         static void Main(string[] args)
         {
+            //Exercicio 7
             // O preço do vale transporte é de R$4,30. O motorista de um ônibus deseja
             // adquirir um programa que leia a quantidade de passageiros que entram no
             // ônibus e que depois calcule e escreva quanto de dinheiro ele terá arrecadado.

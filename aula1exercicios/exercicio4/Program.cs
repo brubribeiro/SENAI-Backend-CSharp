@@ -6,7 +6,8 @@ namespace exercicio4
     {
         static void Main(string[] args)
         {   
-            // //Elabore um algoritmo que efetue a apresentação da conversão de um valor em real (R$) para
+            // Exercicio 4
+            // Elabore um algoritmo que efetue a apresentação da conversão de um valor em real (R$) para
             //  o valor em dólar (US$).O algoritmo deverá solicitar o valor da cotação do dólar.
 
             float cotacao, dolar, real;

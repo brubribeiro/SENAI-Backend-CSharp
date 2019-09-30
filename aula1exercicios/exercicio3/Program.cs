@@ -6,6 +6,7 @@ namespace exercicio3
     {
         static void Main(string[] args)
         {   
+            //Exercicio 3
             //Um vendedor ganha 5% de comissão sobre suas vendas. Considere um algoritmo que leia seu salário fixo, o total de vendas efetuadas e retorne o total que vendedor irá receber.
 
             double salario, tvendas, salariofinal, comissao;

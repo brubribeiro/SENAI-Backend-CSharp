@@ -6,6 +6,7 @@ namespace exercicio2
     {
         static void Main(string[] args)
         {   
+            //Exercicio 2
             //Elabore um algoritmo que leia o preço de custo de uma mercadoria e um percentual de acréscimo para exibição do valor de venda desta mercadoria.
 
             float custo, percentual, venda, porcentagem;
