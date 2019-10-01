@@ -6,6 +6,7 @@ namespace exemplo1
     {
         static void Main(string[] args)
         {
+            //Estrutura de Laço de repetição
             //LAÇO CONTADO - FOR - INCREMENTO (+)
             //Elabore um algoritmo que exiba na tela os números ímpares de 1 até 100..
 

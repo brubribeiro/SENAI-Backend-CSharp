@@ -6,6 +6,7 @@ namespace exemplo2
     {
         static void Main(string[] args)
         {
+            //Estrutura de Laço de repetição
             //LAÇO CONDICIONAL - WHILE
             //Elabore um algoritmo que leia a nota dos alunos e calcule a média
 

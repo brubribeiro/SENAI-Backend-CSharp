@@ -6,6 +6,7 @@ namespace exemplo3
     {
         static void Main(string[] args)
         {
+            //Estrutura de Laço de repetição
             //Faça um algoritmo que leia 20 números inteiros e acumule apenas os números múltiplos de 3
             int num, cont = 1, acum =0;
         
