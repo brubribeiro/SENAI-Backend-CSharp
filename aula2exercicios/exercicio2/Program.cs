@@ -6,6 +6,7 @@ namespace exercicio2
     {
         static void Main(string[] args)
         {
+            // Exercicio 2
             // Criar um algoritmo que, se o preço total a ser pago for superior a R$ 100, então
             // subtraia R$25,00 do preço total.
 

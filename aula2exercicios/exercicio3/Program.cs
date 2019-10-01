@@ -6,6 +6,7 @@ namespace exercicio3
     {
         static void Main(string[] args)
         {
+            // Exercicio 3
             //Faça um algoritmo que leia dois números inteiros e retorne o maior valor lido.
 
             int num1, num2, resultado;

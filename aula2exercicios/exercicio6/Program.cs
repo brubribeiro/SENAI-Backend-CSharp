@@ -6,6 +6,7 @@ namespace exercicio6
     {
         static void Main(string[] args)
         {
+            // Exercicio 6
             //Faça um algoritmo que recebe a idade do usuário e o classifica no sistema
             //ESRB-Games (pesquisem a respeito);
 

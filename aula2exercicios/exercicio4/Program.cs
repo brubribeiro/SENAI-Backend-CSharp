@@ -6,6 +6,7 @@ namespace exercicio4
     {
         static void Main(string[] args)
         {
+            // Exercicio 4
             // Se o preço total a ser pago ficar entre 100 e 1000, então forneça um desconto
             // de 15%.
 

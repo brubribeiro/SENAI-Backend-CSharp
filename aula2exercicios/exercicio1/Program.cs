@@ -6,6 +6,7 @@ namespace exercicio1
     {
         static void Main(string[] args)
         {
+            // Exercicio 1
             // Elabore um algoritmo que leia o salário digitado pelo usuário e também sua
             // despesa total, verificando se o saldo final é positivo (superávit) ou negativo
             // (déficit);
