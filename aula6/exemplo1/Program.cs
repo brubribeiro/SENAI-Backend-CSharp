@@ -6,6 +6,8 @@ namespace exemplo1
     {
         static void Main(string[] args)
         {
+            //Revisão e Exercicio Vetor/Laço/Switch
+
             string[] nome = new string[5];
             string[] origem = new string[5];
             string[] destino = new string[5];
