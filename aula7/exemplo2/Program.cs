@@ -6,6 +6,8 @@ namespace exemplo2
     {
         static void Main(string[] args)
         {
+            //Validação de CPF
+
             Console.WriteLine("Digite o CPF: ");
             string cpf = Console.ReadLine();
 
