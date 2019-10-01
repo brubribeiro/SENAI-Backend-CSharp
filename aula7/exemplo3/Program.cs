@@ -6,6 +6,8 @@ namespace exemplo3
     {
         static void Main(string[] args)
         {
+            //Validação de CNPJ
+
             Console.WriteLine("Digite o CNPJ: ");
             string cnpj = Console.ReadLine();
 
