@@ -6,6 +6,8 @@ namespace exemplo2
     {
         static void Main(string[] args)
         {
+            //Vetor
+
             string[] series1 = new string[10];
             string[] series2 = new string[10];
 
