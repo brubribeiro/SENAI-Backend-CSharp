@@ -6,6 +6,7 @@ namespace exemplo1
     {
         static void Main(string[] args)
         {
+            //Estrutura de Escolha(CASO)
             string placa, resultado;
             string final;
 

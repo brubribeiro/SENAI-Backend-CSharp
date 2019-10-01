@@ -6,6 +6,7 @@ namespace exemplo3
     {
         static void Main(string[] args)
         {
+            //Estrutura de Escolha(CASO)
             //Faça um algoritmo que leia seu peso no planeta terra, que leia também o número de um
             // planeta conforme tabela ao lado e calcule seu peso neste planeta:
 

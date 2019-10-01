@@ -6,6 +6,7 @@ namespace exemplo2
     {
         static void Main(string[] args)
         {
+            //Estrutura de Escolha(CASO)
             //Faça um algoritmo que leia o número de um pedido de um cliente
 
             string pedido, resultado;
