@@ -6,6 +6,7 @@ namespace exemplo1
     {
         static void Main(string[] args)
         {
+            //Exemplos
             //Chamamos nossa primeira função
             Console.WriteLine(BomDia());
             //Chamamos a função do tipo VOID(sem retorno)
