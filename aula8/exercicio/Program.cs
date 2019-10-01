@@ -10,6 +10,8 @@ namespace exercicio
     {
         static void Main(string[] args)
         {
+            //Exercicio
+
             #region Criacao do documento
                 Document exercicioDoc = new Document();                
             #endregion

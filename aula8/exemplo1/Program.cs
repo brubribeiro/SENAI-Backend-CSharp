@@ -10,6 +10,8 @@ namespace exemplo1
     {
         static void Main(string[] args)
         {
+            //Exemplo para criar documento Word
+
             #region Criacao do documento
                 // Cria um documento com o nome exemploDoc
                 Document exemploDoc = new Document();                
