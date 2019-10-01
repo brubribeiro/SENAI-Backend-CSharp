@@ -6,6 +6,7 @@ namespace exercicio6
     {
         static void Main(string[] args)
         {
+            //Exercicio 6
             //Faça um algoritmo que gere 20 números da série Fibonacci (0, 1, 1, 2, 3, 5, 8, 13, 21...).
 
             int num1 = 0, num2 = 1;

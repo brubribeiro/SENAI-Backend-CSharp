@@ -6,6 +6,7 @@ namespace exercicio7
     {
         static void Main(string[] args)
         {
+            //Exercicio 7
             // Elabore um algoritmo que leia 100 números inteiros, maiores que zero e imprima os
             // seguintes resultados:
             // a) A soma de todos os números impares;

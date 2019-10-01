@@ -6,6 +6,7 @@ namespace exercicio4
     {
         static void Main(string[] args)
         {
+            // //Exercicio 4
             // Dado um conjunto de 20 valores, faça um algoritmo que:
             // a) Imprima os valores que não são negativos.
             // b) Calcule e imprima a média dos valores < 0.

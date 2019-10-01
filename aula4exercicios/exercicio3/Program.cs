@@ -6,6 +6,7 @@ namespace exercicio3
     {
         static void Main(string[] args)
         {
+            ////Exercicio 3
             //Escreva um algoritmo que leia um número n e imprima todos os múltiplos de 5, no intervalo de 1 a n.
 
             int n, n1, n2;

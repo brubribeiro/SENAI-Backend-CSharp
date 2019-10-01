@@ -6,6 +6,7 @@ namespace exercicio2
     {
         static void Main(string[] args)
         {
+            //Exercicio 2
             //Elabore um algoritmo que mostre o resultado da tabuada de um número inteiro dado
             // pelo usuário. O formato deve ser apresentado na forma: Exemplo, para o número 2:
             // 2 X 1 = 2
