@@ -6,6 +6,7 @@ namespace exemplo3
     {
         static void Main(string[] args)
         {
+            //Estrutura Condicional
             //Deixamos declarada como falsa por padrão
             bool entrada = false;
             int idade;

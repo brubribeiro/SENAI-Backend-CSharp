@@ -6,6 +6,7 @@ namespace exemplo4
     {
         static void Main(string[] args)
         {
+            //Estrutura Condicional
             string placa, resultado;
             string final;
 

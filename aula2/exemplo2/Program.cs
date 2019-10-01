@@ -6,6 +6,7 @@ namespace exemplo2
     {
         static void Main(string[] args)
         {
+            //Estrutura Condicional
             //Declaramos as notas que utilizaremos
             double nota1, nota2, nota3, media;
 
